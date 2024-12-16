@@ -3,13 +3,13 @@ using namespace std;
 int main(){
 	int year;
 	printf("Hay nhap nam bat ki:");
-	scanf("%d",&month);
-if((month%4==0&&month%100!=0)||(month%100==0&&month%400==0))
+	scanf("%d",&year);
+if((year%4==0&&year%100!=0)||(year%100==0&&year%400==0))
 {
-	printf("nam %d la nam nhuan",month);
+	printf("nam %d la nam nhuan",year);
 }
 else{
-		printf("nam %d ko la nam nhuan",month);
+		printf("nam %d ko la nam nhuan",year);
 }
 	
 	return 0;
