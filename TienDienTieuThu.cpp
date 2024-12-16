@@ -10,7 +10,7 @@ int main()
 	scanf("%d",&SoDien1);
 	printf("Hay nhap dien cuoi thang: ");
 	scanf("%d",&SoDien2);
-	SoDien=SoDien1+SoDien2;
+	SoDien=SoDien2-SoDien1;
 	if((SoDien>=0&&SoDien<50))
 	{
 		TienDien=10000;
@@ -32,7 +32,7 @@ int main()
 		TienDien=30000;
 }
 	float TienDienTieuThu=0.0;
-	TienDienTieuThu=TienDien*SoDien;
+	TienDienTieuThu=(TienDien)*(SoDien-50);
 	printf("Tien Dien tieu thu trong thang cua ho gia dinh la: %.2f \n ",TienDienTieuThu);
 	return 0;
  } 

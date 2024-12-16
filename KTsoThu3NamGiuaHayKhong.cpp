@@ -12,8 +12,12 @@ int main(){
 	{
 		printf("so %d nam giua 2 so %d va %d",c,a,b);
 	}
-	else{
-		printf("so %d khong nam giua 2 so %d va %d",c,a,b);
+	else if(c<a&&c>b){
+		printf("so %d nam giua 2 so %d va %d",c,b,a);
+	}
+	else
+	{
+		printf("so %d ko nam giua 2 so %d va %d",c,a,b);
 	}
 	return 0;
 }
