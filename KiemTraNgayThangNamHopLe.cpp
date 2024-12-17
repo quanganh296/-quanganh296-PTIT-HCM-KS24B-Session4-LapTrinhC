@@ -14,7 +14,8 @@ int main() {
 		{
 			if(day>0&&day<32)
 			{
-				printf("thang %d ngay %d nam %d",month,day,year);
+				printf("ngay %d thang %d nam %d\n",month,day,year);
+					printf("ngay thang nam hop le!");
 			}
 		}
 		else if(month==2)
@@ -22,24 +23,32 @@ int main() {
 		if((year%4==0&&year%100!=0)||(year%100==0&&year%400==0)) {
 		if(day>0&&day<30)
 			{
-				printf("thang %d ngay %d nam %d \n",month,day,year);
-				printf("nam %d la nam nhuan",year);
+				printf("ngay %d thang %d nam %d\n",month,day,year);
+				printf("nam %d la nam nhuan\n",year);
+					printf("ngay thang nam hop le!");
 				return 0;
 			}
 		}
 		else if(day>0&&day<29)
 			{
-				printf("thang %d ngay %d nam %d \n",month,day,year);
+				printf("ngay %d thang %d nam %d\n",month,day,year);
+					printf("ngay thang nam hop le!");
 			}{
 			day=28;
 		}
-			printf("thang %d ngay %d nam %d",month,day,year);
+			printf("ngay %d thang %d nam %d\n",month,day,year);
+				printf("ngay thang nam hop le!");
 		}
 		else if(month==4||month==6||month==9||month==11) {
 			if(day>0&&day<31)
 			{
-				printf("thang %d ngay %d nam %d",month,day,year);
+			printf("ngay %d thang %d nam %d\n",month,day,year);
+				printf("ngay thang nam hop le!");
 			}
+		}
+		else{
+				printf("ngay %d thang %d nam %d \n",month,day,year);
+				printf("ngay thang nam khong hop le!");
 		}
     return 0;
 }
